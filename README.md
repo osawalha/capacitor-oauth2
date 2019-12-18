@@ -130,6 +130,8 @@ impact using this plugin in a web application.
 **Register the plugin** in `com.companyname.appname.MainActivity#onCreate`
 
 ```
+    import com.byteowls.capacitor.oauth2.OAuth2ClientPlugin;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
